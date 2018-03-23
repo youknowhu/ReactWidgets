@@ -1,4 +1,7 @@
 /* PHASE 12: Modal */
+.modal {
+  display: none;
+}
 .modal-screen {
   position: fixed;
   top: 0;

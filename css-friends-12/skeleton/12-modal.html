@@ -17,8 +17,12 @@
   <link rel="stylesheet" href="css/10-posts.css" type="text/css">
   <link rel="stylesheet" href="css/11-icons.css" type="text/css">
   <link rel="stylesheet" href="css/12-modal.css" type="text/css">
-  <script src="../shared/js/jquery.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
   <script>
+
   $(function(){
 
     $("body").on("click", ".js-modal-open", function(event){
@@ -54,6 +58,7 @@
         </li>
         <li><a href="#">Profile</a></li>
         <li><a href="#">Settings</a></li>
+        <li><a href="#" class="js-modal-open">Sign In</a></li>
       </ul>
 
     </nav>
@@ -254,7 +259,7 @@
     <section class="modal-form">
       <div class="modal-header">
         <h1>Welcome  </h1>
-        <span class="close-window"> &times;</span>
+        <button class="close-window js-modal-close"> &times;</button>
       </div>
       <p>Please sign in to continue.</p>
       <form class="form">
