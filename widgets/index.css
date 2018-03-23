@@ -1,0 +1,88 @@
+/* blue #33658A */
+/* green #395756 */
+/* purple #493548 */
+/* light blue #6A8D92
+light green #80B192 */
+
+
+body {
+  font-family: 'Mina', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1 {
+  /* font-weight: 700; */
+}
+
+.clock-div {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.clock-header {
+  font-weight: 700;
+}
+
+.clock-body {
+  color: white;
+  background-color: #33658A;
+  padding: 1px 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.clock-body h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-titles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs-div {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.tabs-titles {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.tabs-main {
+  margin: 0;
+}
+
+.tabs-titles h2 {
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #395756;
+  padding: 0px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  border: 1px solid black;
+}
+
+
+.tabs-content {
+  background-color: #395756;
+  margin-top: -33px;
+  padding: 0px 10px;
+  height: 100px;
+  width: 210px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  line-height: 100px;
+
+}
+
+.select-tab h2 {
+  border-bottom: 1px solid #395756;
+  font-weight: 700;
+}
